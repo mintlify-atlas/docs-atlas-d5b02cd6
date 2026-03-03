@@ -1,0 +1,169 @@
+{
+  "projectType": "framework",
+  "projectName": "Apache Beam",
+  "projectDescription": "A unified programming model for batch and streaming data processing pipelines.",
+  "theme": "aspen",
+  "primaryColor": "#FF6B00",
+  "lightColor": "#FFA940",
+  "darkColor": "#D14D00",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "quickstart-java",
+              "quickstart-python",
+              "quickstart-go"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/overview",
+              "concepts/programming-model",
+              "concepts/pipeline",
+              "concepts/pcollection",
+              "concepts/ptransform",
+              "concepts/windowing",
+              "concepts/triggers",
+              "concepts/watermarks"
+            ]
+          },
+          {
+            "group": "SDKs",
+            "pages": [
+              "sdks/java",
+              "sdks/python",
+              "sdks/go",
+              "sdks/typescript",
+              "sdks/multi-language"
+            ]
+          },
+          {
+            "group": "Runners",
+            "pages": [
+              "runners/overview",
+              "runners/direct",
+              "runners/dataflow",
+              "runners/flink",
+              "runners/spark",
+              "runners/prism",
+              "runners/capability-matrix"
+            ]
+          },
+          {
+            "group": "I/O Connectors",
+            "pages": [
+              "io/overview",
+              "io/built-in",
+              "io/file-based",
+              "io/database",
+              "io/messaging",
+              "io/custom-io"
+            ]
+          },
+          {
+            "group": "Advanced Topics",
+            "pages": [
+              "advanced/custom-transforms",
+              "advanced/side-inputs",
+              "advanced/schemas",
+              "advanced/state-timers",
+              "advanced/splittable-dofn",
+              "advanced/performance",
+              "advanced/testing",
+              "advanced/debugging"
+            ]
+          },
+          {
+            "group": "Machine Learning",
+            "pages": [
+              "ml/overview",
+              "ml/runinference",
+              "ml/model-handlers",
+              "ml/multi-language-inference"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Java API",
+            "pages": [
+              "api/java/pipeline",
+              "api/java/pcollection",
+              "api/java/ptransform",
+              "api/java/transforms",
+              "api/java/io",
+              "api/java/coders"
+            ]
+          },
+          {
+            "group": "Python API",
+            "pages": [
+              "api/python/pipeline",
+              "api/python/pcollection",
+              "api/python/ptransform",
+              "api/python/transforms",
+              "api/python/io",
+              "api/python/coders"
+            ]
+          },
+          {
+            "group": "Go API",
+            "pages": [
+              "api/go/pipeline",
+              "api/go/pcollection",
+              "api/go/transforms",
+              "api/go/io"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Unified batch and streaming processing model",
+    "Multi-language SDKs (Java, Python, Go, TypeScript)",
+    "Portable execution across multiple runners (Flink, Spark, Dataflow)",
+    "Rich set of I/O connectors for databases, file systems, and messaging systems",
+    "Advanced windowing and triggering capabilities",
+    "Built-in support for machine learning inference",
+    "State and timers for stateful processing",
+    "Schema-aware transforms for structured data"
+  ],
+  "publicApiSurface": [
+    "Pipeline",
+    "PCollection",
+    "PTransform",
+    "DoFn",
+    "ParDo",
+    "GroupByKey",
+    "CoGroupByKey",
+    "Combine",
+    "Flatten",
+    "Partition",
+    "Window",
+    "Trigger",
+    "DirectRunner",
+    "DataflowRunner",
+    "FlinkRunner",
+    "SparkRunner",
+    "Read",
+    "Write",
+    "TextIO",
+    "AvroIO",
+    "BigQueryIO",
+    "KafkaIO",
+    "PubSubIO",
+    "FileIO",
+    "RunInference"
+  ]
+}
